@@ -6,48 +6,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
-
-    <style>
-        h1 { font-family: 'montserrat-alternates',sans-serif;
-        color: #58265F;
-        font-size: 50px;
-        }
-        p,a {font-size: 20px;font-family: Arial, Helvetica, sans-serif;
-        }
-        .texto {
-            color: blueviolet;
-        }
-        p {
-            background-color: beige;
-        }
-        #main-title{
-            font-size: 45px;
-            line-height: 50px;
-            font-weight: 100;
-            letter-spacing: -3px;
-        }
-        img {border-radius: 8%;}
-
-        .botao {
-            background-color: #11a36a;
-            color: #fff;
-            text-decoration: none;
-            padding: 10px;
-        }
-
-    </style>
-
-
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1 id= "main-title">Marco Túlio Vilaça Diniz</h1>
-    <img id="foto" src="./marco.jpeg" alt="300px""foto marco">
     
-    <h3 class="texto"> <em> Olá, sou estudante da Trybe e curso engenharia mecânica.</em> </h3>
-    <p>Sou <i>brasileiro</i> e nasci e moro em <i>Minas Gerais.</i> </p>
-    <p>E sou morador de <i>Betim,MG<i></p>
-    <p>Sou um cara muito comunicativo, aprendo fácil e gosto de desafios</p>
-        <a class="botao" href="#foto"> ir para foto </a> <br><br><br>
-        <a class="botao" href="https://www.linkedin.com/in/marco-t%C3%BAlio-vila%C3%A7a-diniz-52a418191/" target="_blank">Linkedin</a>
+
+    <header id="header"> 
+        <div id="name">
+            <h1 id= "main-title">Marco Túlio Vilaça Diniz </h1>        
+        </div>
+
+        <div id="foto">
+            <img id="foto" src="./Marco.jpeg" alt="foto marco" width="300px" >
+            
+        </div>
+        
+        
+        <div id="botao-lin">
+            <a class="botao" href="https://www.linkedin.com/in/marco-t%C3%BAlio-vila%C3%A7a-diniz-52a418191/" target="_blank"><img src="/lin.png" alt="linke" width="50px" ></a>
+
+        </div>
+
+        <div id="botao-github">
+            <a class="botao" href="https://github.com/marcotuliovd" target="_blank"><img src="./github.png" alt="link para github" width="75px" ></a>
+
+        </div>
+        
+        
+               
+    </header>
+    
+    <main id="corpo">
+
+        <div id="titulo-corpo">
+            <h3 class="texto"> <em> Olá, sou estudante da Trybe e curso engenharia mecânica.</em> </h3>
+        </div>
+        
+    
+        <p>Sou <i>brasileiro</i>, nasci em <i>Belo Horizonte, Minas Gerais.</i> </p>
+        <p>Sou morador de <i>Betim,MG<i></p>
+        <p>Sou um cara muito comunicativo, aprendo fácil e gosto de desafios</p>
+
+    </main>
+
+    
+    <section id="lista">
+        <h4>Já tive experiência de programação em :</h4> 
+        <li>C</li>
+        <li>C++</li>
+        <li>java script</li> 
+        <li>HTML</li> 
+        <li>CSS</li> 
+        <br><br><br><br>
+        
+    </section>
+
+    <footer>
+        <a class="botao" href="#name"> <img src="./pracima.png" alt="subir para topo" width="50px" > </a> <br><br><br><br>
+    </footer>
 </body>
 </html>
